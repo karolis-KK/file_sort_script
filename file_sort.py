@@ -1,7 +1,7 @@
 import os
 import shutil
 
-target_folder = "C:\Users\User\Documents\bandymas"
+target_folder = "C:/Users/User/Documents/bandymas"
 extensions = {item.split(".")[-1] for item in os.listdir(target_folder) if os.path.isfile(os.path.join(target_folder, item))}
 
 # create folders
