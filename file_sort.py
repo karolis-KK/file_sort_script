@@ -1,7 +1,7 @@
 import os
 import shutil
 
-target_folder = ""
+target_folder = r'add file directory here'
 extensions = {item.split(".")[-1] for item in os.listdir(target_folder) if os.path.isfile(os.path.join(target_folder, item))}
 
 # create folders
